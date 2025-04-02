@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+body {
+    background-image: url('img/fundoc1.jpg');
+    background-size: cover;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+  width: 250px;
+  background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+        padding: 15px;
+        -webkit-box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 0.75);
+-moz-box-shadow: 0px 0px 8px 0px rgb(255, 255, 255);
+box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 0.75);
+    }
+
+.elementos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.pessoa {
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    
+}
+
+.img {
+    background-image: url('img/perfil\ 2.jpeg');
+    width: 75px;
+    height: 75px;
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px solid rgb(251, 251, 251);
+}
+
+.pessoa h2, .pessoa p {
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+
+}
+
+.pessoa p {
+    margin-top: 3px;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.social {
+    width: 100%;
+    margin-top: 20px;
+}
+.botoes {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 30px;
+    border-radius: 5px;
+}
+
+.botoes i {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 11px;
+}
+
+.botoes i:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 244, 244);
+    cursor: pointer;
+}
+
+.contato {
+    margin-top: 10px;
+    width: 80%;
+    background-color: rgb(85, 79, 75);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.secao {
+    display: flex;
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.secao:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.texto {
+    font-size: 8px;
+    margin: 1px;
+    margin-left: 10px;
+
+}
+
+.icone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icone i {
+    font-size: 11px;
+}
+
+.botao {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 8px 15px;
+    color: rgb(3, 0, 0);
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 9px;
+}
+
+.botao:hover {
+    background-color: rgb(3, 0, 0);
+    border: 1px solid #383838;
+    color: rgb(255, 255, 255);
+}
+
+.botao p{
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 10px;
+}
